@@ -1,6 +1,6 @@
 import ZerodhaBrokerForm from "@/components/forms/zerodhaForm"
 import { useState } from "react"
-const zerodhaComponent = () => {
+const ZerodhaComponent = () => {
     const [brokerDetails, setBrokerDetails] = useState({
         clientId: "",
         apiKey: "",
@@ -13,4 +13,4 @@ const zerodhaComponent = () => {
         </>
     )
 }
-export default zerodhaComponent
+export default ZerodhaComponent
